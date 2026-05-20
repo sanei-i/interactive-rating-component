@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/sanitize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital@0;1&display=swap" rel="stylesheet">
@@ -15,31 +15,49 @@
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
+  <main>
+    <!-- Rating state start -->
 
-  <!-- Rating state start -->
+    <div class="card">
+    <img class="favorite-image" src="./assets/images/icon-star.svg" alt="">
+    <form action="">
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <fieldset class="evaluation">
+        <legend class="sr-only">Choose a rating</legend>
+        <input type="radio" name="rating" id="rating-1" value="1">
+        <label for="rating-1">1</label>
+        <input type="radio" name="rating" id="rating-2" value="2">
+        <label for="rating-2">2</label>
+        <input type="radio" name="rating" id="rating-3" value="3">
+        <label for="rating-3">3</label>
+        <input type="radio" name="rating" id="rating-4" value="4">
+        <label for="rating-4">4</label>
+        <input type="radio" name="rating" id="rating-5" value="5">
+        <label for="rating-5">5</label>
+      </fieldset> 
+      <button class="submit" type="submit">Submit</button>
+    </form>
+    </div>
 
-  How did we do?
+    <!-- Rating state end -->
+    
+    <!-- Thank you state start -->
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+    You selected <!-- Add rating here --> out of 5
 
-  1 2 3 4 5
+    Thank you!
 
-  Submit
+    We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!
 
-  <!-- Rating state end -->
+    <!-- Thank you state end -->
 
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+  </main>
+  
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
