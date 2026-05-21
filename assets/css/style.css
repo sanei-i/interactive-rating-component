@@ -1,4 +1,29 @@
 /* 
+variables
+*/
+:root {
+    /* color */
+    --color-primary: hsl(25, 97%, 53%);
+    --color-neutral: hsl(0, 100%, 100%);
+    --color-neutral-500: hsl(217, 12%, 63%);
+    --color-neutral-900: hsl(213, 19%, 18%);
+    --color-neutral-950: hsl(216, 12%, 8%);
+    
+    /* font size */
+    --text-body: 0.9375rem;
+    --text-headline: 1.5rem;
+
+    /* radius */
+    --radius-card: 0.9375rem;
+    --radius-circle: 50%;
+
+    /* spacing */
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+}
+
+
+/* 
 footer
 */
 .attribution {
