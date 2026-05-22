@@ -38,6 +38,9 @@ main {
     align-items: center;
     min-height: 100vh;
 }
+/* 
+utilities
+*/
 .hidden {
     display: none;
 }
