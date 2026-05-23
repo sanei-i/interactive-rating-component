@@ -10,17 +10,19 @@ variables
     --color-neutral-950: hsl(216, 12%, 8%);
     
     /* font size */
-    --text-body: 0.9375rem;
+    --text-body: 0.875rem;
     --text-headline: 1.5rem;
+    --text-label: 0.8125rem;
+    --text-button: 0.9375rem;
 
     /* radius */
     --radius-card: 0.9375rem;
     --radius-circle: 50%;
 
     /* spacing */
-    --space-sm: 1rem;
-    --space-md: 1.5rem;
-    --space-md: 1.875rem;
+    --space-label: 1rem;
+    --space-padding: 1.5rem;
+    --space-bottom: 1.875rem;
 }
 
 
