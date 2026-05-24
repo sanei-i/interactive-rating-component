@@ -52,6 +52,7 @@ card
 .card {
     width: 20.5rem;
     padding: var(--space-padding);
+    padding-bottom: var(--space-bottom);
     display: flex;
     flex-direction: column;
     gap: var(--space-padding);
