@@ -132,6 +132,26 @@ evaluation
 
 
 /* 
+submit button
+*/
+.submit {
+    height: 2.8125rem;
+    padding: 0;
+    border: 1px solid var(--color-neutral-900);
+    text-transform: uppercase;
+    font-size: var(--text-button);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    background-color: var(--color-primary);
+    border-radius: var(--radius-button);
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: var(--color-neutral-100);
+}
+
+
+/* 
 utilities
 */
 .hidden {
