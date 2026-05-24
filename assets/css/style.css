@@ -18,6 +18,7 @@ variables
 
     /* radius */
     --radius-card: 0.9375rem;
+    --radius-button: 3.125rem;
     --radius-circle: 50%;
 
     /* spacing */
