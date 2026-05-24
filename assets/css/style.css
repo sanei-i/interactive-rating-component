@@ -47,9 +47,9 @@ main {
 
 
 /* 
-card
+evaluation card
 */
-.card {
+.evaluation-card {
     width: 20.5rem;
     padding: var(--space-padding);
     padding-bottom: var(--space-bottom);
